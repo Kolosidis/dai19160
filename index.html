@@ -154,7 +154,7 @@
         }
 
         //change this to the ACTUAL contract address that you created on truffle migrate
-        var contractAddress = "0xE5100111c16283118FE8b06B8E560CbdBb6a3e1c";
+        var contractAddress = "0xAfeE7c254375F7bF05B521F9ce4329977a4b9bAf";
         var LotteryContract = new web3.eth.Contract(abi, contractAddress);
 
         var onwerAddress = LotteryContract.methods.beneficiary().call();
